@@ -3,3 +3,16 @@ import streamlit as st
 # working with sample data.
 import numpy as np
 import pandas as pd
+
+
+st.title('My first app')
+
+st.write("Here's our first attempt at using data to create a table:")
+
+
+df = pd.DataFrame({
+  'first column': [1, 2, 3, 4],
+  'second column': [10, 20, 30, 40]
+})
+
+df
