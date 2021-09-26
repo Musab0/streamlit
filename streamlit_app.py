@@ -57,11 +57,11 @@ option = st.selectbox(
 #-------------
 
 
-option2 = st.sidebar.selectbox(
-    'Which number do you like best?',
-     df['first column'])
+# option2 = st.sidebar.selectbox(
+#     'Which number do you like best?',
+#      df['first column'])
 
-'You selected:', option2
+# 'You selected:', option2
 
 
 
